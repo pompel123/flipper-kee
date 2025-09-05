@@ -1,0 +1,10 @@
+App(
+    appid="star_kee",
+    name="Star Kee TX",
+    apptype=FlipperAppType.EXTERNAL,
+    entry="star_kee.c",
+    requires=["subghz", "storage", "gui"],
+    stack_size=4 * 1024,
+    fap_category="SubGHz",
+    fap_icon="A",
+)
